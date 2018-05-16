@@ -1,0 +1,163 @@
+/* index.js */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "PT Serif", serif;
+}
+select.form-control,
+textarea.form-control,
+input.form-control {
+  font-size: 16px;
+}
+input[type=file] {
+  width: 100%;
+}
+
+/* NotFound.js */
+
+.NotFound {
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* App.js */
+
+.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+/* BillingForm.js */
+
+.BillingForm .card-field {
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 11px 16px;
+  border-radius: 6px;
+  border: 1px solid #CCC;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  line-height: 1.3333333;
+}
+
+.BillingForm .card-field.StripeElement--focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  border-color: #66AFE9;
+}
+
+/* LoaderButton.js */
+
+.LoaderButton .spinning.glyphicon {
+  margin-right: 7px;
+  top: 2px;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  from { transform: scale(1) rotate(0deg); }
+  to { transform: scale(1) rotate(360deg); }
+}
+
+/* Home.js */
+
+.Home .lander {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.Home .lander p {
+  color: #999;
+}
+
+.Home .lander div {
+  padding-top: 20px;
+}
+
+.Home .lander div a:first-child {
+  margin-right: 20px;
+}
+
+.Home .tenants h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home .tenants p {
+  color: #666;
+}
+
+/* Signup.js */
+
+@media all and (min-width: 480px) {
+  .Signup {
+    padding: 60px 0;
+  }
+
+  .Signup form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.Signup form span.help-block {
+  font-size: 14px;
+  padding-bottom: 10px;
+  color: #999;
+}
+
+/* Login.js */
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+/* Settings.js */
+
+@media all and (min-width: 480px) {
+  .Settings {
+    padding: 60px 0;
+  }
+  
+  .Settings .jumbotron {
+    margin: 0 auto;
+    max-width: 480px;
+  }
+}
+
+/* ProjectsList.js */
+
+.Home .projects h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.Home .projects p {
+  color: #666;
+}
